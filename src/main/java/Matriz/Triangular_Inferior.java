@@ -9,22 +9,6 @@ package Matriz;
  * @author alons
  */
 public class Triangular_Inferior {
-    private int columna;
-    private int fila;
-    
-    public int getColumna(){
-        return columna;
-    }
-    public void setColumna(int columna){
-        this.columna = columna;
-    }
-    
-    public int getFila(){
-        return fila;
-    }
-    public void setFila(int fila){
-        this.fila = fila;
-    }
     
     public void TriangularInferior() { // Metodo para hacer la matriz triangular inferior
         int[][] matriz = new int[4][4];

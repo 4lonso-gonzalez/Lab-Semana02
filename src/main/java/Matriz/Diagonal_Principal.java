@@ -9,22 +9,6 @@ package Matriz;
  * @author alons
  */
 public class Diagonal_Principal { // Asignacion de los atributos para la clase
-    private int columna;
-    private int fila;
-    
-    public int getColumna(){ // Metodos get y set para cada atributo
-        return columna;
-    }
-    public void setColumna(int columna){
-        this.columna = columna;
-    }
-    
-    public int getFila(){
-        return fila;
-    }
-    public void setFila(int fila){
-        this.fila = fila;
-    }
     
     public void DiagonalPrincipal() { // Metodo para hacer la matriz diagonal principal
         int[][] matriz = new int[4][4];
